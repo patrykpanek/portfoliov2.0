@@ -1,6 +1,7 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-
+import profile from '../assets/profile.png'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 
@@ -15,7 +16,7 @@ function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles />
-        <img className='relative rounded-full h-32 w-32 mx-auto object-cover' src="https://avatars.githubusercontent.com/u/37808036?v=4" alt="" />
+        <Image width={128} height={128} className='relative rounded-full mx-auto object-cover' src={profile} alt="" />
 
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Junior frontend developer</h2>
