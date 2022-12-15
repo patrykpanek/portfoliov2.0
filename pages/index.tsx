@@ -5,13 +5,16 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
-
+import Head from 'next/head'
 
 export default function Home() {
   return (
     
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory z-0 overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin'>
-     
+        <Head>
+          <title>Patryk Panek</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
    
         <Header/>
 
