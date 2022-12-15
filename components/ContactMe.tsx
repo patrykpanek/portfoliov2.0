@@ -25,20 +25,20 @@ function ContactMe({}: Props) {
         </h3>
 
         <div className='flex flex-col space-y-10 px-5'>
-            <h4 className='text-3xl font-semibold text-center'>
+            <h4 className='text-3xl font-semibold text-center hidden sm:inline-block'>
                 I have got just what you need.{" "}
                 <span className='underline decoration-[#F7AB0A]/50'>
                     Lets Talk!
                 </span>
             </h4>
-            <div className='space-y-8'>
+            <div className='space-y-2'>
               
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center space-x-2 justify-center'>
                     <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-puls'/>
                     <p className='text-2xl'>patrykpanekpk@gmail.com</p>
                 </div>
 
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center space-x-2 justify-center'>
                     <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-puls'/>
                     <p className='text-2xl'>Katowice</p>
                 </div>

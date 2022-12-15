@@ -43,7 +43,7 @@ function About({}: Props) {
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]'>little</span>  background</h4>
             <p className='text-base '>
-                I'm Patryk. I have 27 years old and graduated from University of Technologies in Opole in the field of computer science. I've been coding for over one year now. In the future i want to be a full stack develeoper which is my dream. I still learn new technologies and when I making new project i try to put some new stuff to improve myself. Currently looking for a new job, opportunity and place that I could learn and maybe in nearly future teach that would be awesome! Trekking, kickboxing, traveling and exploring that are my passions!
+                I'm Patryk. I have 27 years old and graduated from University of Technologies in Opole in the field of computer science. I've been interested in programming since I started my studies. I've been programming more intensivly for over a year. In the future i want to be a full stack develeoper which is my dream. I still learn new technologies and when I making new project i try to put some new stuff to improve myself. Currently looking for a new job, opportunity and place that I could learn and maybe in nearly future teach that would be awesome! Trekking, kickboxing, traveling and exploring that are my passions!
             </p>
         </div>
     </motion.div>

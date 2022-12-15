@@ -16,7 +16,7 @@ function Projects({}: Props) {
     initial={{opacity: 0}}
     whileInView={{opacity:1}}
     transition={{duration: 2.5}}
-    className='h-[180vh] xl:h-[140vh] sm:h-[130vh]  relative flex flex-col max-w-[1280px] w-[100%]  mx-auto items-center z-0  overflow-hidden'>
+    className='h-[180vh] xl:h-[150vh] sm:h-[130vh]  relative flex flex-col max-w-[1280px] w-[100%]  mx-auto items-center z-0  overflow-hidden'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Projects
         </h3>

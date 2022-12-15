@@ -26,8 +26,6 @@ function Header({}: Props) {
             {/* social icons */}
             <SocialIcon url='https://www.linkedin.com/in/patryk-panek-892674175/' fgColor='gray' bgColor='transparent'/>
             <SocialIcon url='https://github.com/patrykpanek' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.instagram.com/panooszi/' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.facebook.com/panoszi' fgColor='gray' bgColor='transparent'/>
         </motion.div>
 
         

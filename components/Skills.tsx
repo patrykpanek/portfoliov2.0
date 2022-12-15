@@ -27,13 +27,15 @@ function Skills({}: Props) {
     }}
     whileInView={{opacity:1}}
     transition={{duration: 2}}
-    className='h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] px:10 xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
+    className='h-screen flex relative flex-col text-center md:text-left  max-w-[2000px] px:10 xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             skills
         </h3>
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>Skills that i used in my projects</h3>
+        <div className='absolute mt-36 flex justify-center items-center flex-col'>
 
-        <div className='grid grid-cols-4 gap-5 px-10'>
+          <h3 className=' uppercase tracking-[3px] text-gray-500 text-sm'>Skills that i used in my projects</h3>
+
+          <div className='grid grid-cols-4 gap-5 px-10  sm:py-5'>
             <Image src={html} className='icon' alt="" />
             <Image src={css} className='icon' alt="" />
             <Image src={js} className='icon' alt="" />
@@ -51,6 +53,7 @@ function Skills({}: Props) {
             <Image src={figma} className='icon' alt="" />
             
         </div>
+      </div>
     </motion.div>
   )
 }
