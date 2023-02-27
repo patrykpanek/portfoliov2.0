@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-
+import profile2 from '../assets/profile2.png'
+import Image from 'next/image'
 
 type Props = {}
 
@@ -22,20 +23,9 @@ function About({}: Props) {
             about
         </h3>
 
-        <motion.img
-        initial={{
-            x: -200,
-            opacity: 0,
-        }}
-        whileInView={{
-            x: 0,
-            opacity: 1,
-        }}
-        transition={{
-            duration: 1.2,
-        }}
-        viewport={{once: true}}
-        src='https://iv.pl/images/9d88d3856a9ca96d71c5fada71810bef.png'
+        <Image
+        alt='profile'
+        src={profile2}
         className='mt-24 s:mt-6 sm:mt-0 mb-4 md:mb-0 md:sm-0 flex-shrink-0 w-[150px] h-[150px] rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px] sm:w-[300px] sm:h-[400px] sm:rounded-xl s:w-[300px] s:h-[340px] s:rounded-xl'
         />
 
